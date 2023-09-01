@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Lilita+One&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+  .container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+  .dice {
+    text-align: center;
+    display: inline-block;
+    margin-top: -60px;
+  }
+  
+  body {
+    background-color: #F8F0E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(/Images/bg.png);
+  }
+  
+  h1 {
+    margin: 30px;
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 5rem;
+    color: #550a71;
+    margin-top: -15px;
+  }
+  p {
+    font-size: 2rem;
+    color: #102C57;
+    font-family: 'Lilita One', cursive;
+  }
+  img {
+    width: 80%;
+  }
+  .btn {
+    margin: 20px;
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    font-family: 'Lilita One', cursive;
+    background-color: #2622f4;
+    font-size: 30px;
+    color: white;
+    margin-top: 20px;
+  }
+  .btn:hover{
+    background-color: rgb(0, 0, 0);
+    height: 60px;
+    width: 210px;
+  }
+  input{
+  border-radius: 20px;
+  font-family: 'Lilita One', cursive;
+  }
+  #result_counter1{
+    margin-right: 469px;
+    height: 35px;
+    width: 100px;
+    text-align: center;
+    margin-top: -60px;
+    color: blue;
+  }
+
+  #result_counter2{
+    margin-left: 469px;
+    height: 35px;
+    width: 100px;
+    text-align: center;
+    margin-top: -30px;
+    color: red;
+  }
